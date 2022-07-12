@@ -1,0 +1,76 @@
+body
+{
+    background: rgb(232, 232, 232);
+    font-family: Helvetica, sans-serif;
+    max-width: 100%;
+}
+a
+{
+    color: darkcyan;
+    text-decoration: none;
+}
+.top_page
+{
+    background: rgb(69, 98, 104);
+    border: 1px solid rgb(48, 71, 94);
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.image_icon
+{
+    width: 8%;
+    height: 8%;
+    padding: 20px;
+    margin-bottom: 10;
+    border-radius: 300px;
+}
+
+#title, .subtitle, .text, .top_page
+{
+    color: rgb(69, 98, 104);
+} 
+#title
+{
+    color: rgb(232, 232, 232);
+    font-size: 35px;
+    margin-top: 0;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+.subtitle
+{
+    color: rgb(69, 98, 104);
+    font-size: 25px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+.ttitle
+{
+    color: rgb(69, 98, 104);
+    padding-top: 0;
+    margin-top: 0;
+}
+.post
+{
+    background: rgb(232, 232, 232);
+    padding: 10px;
+    border: 1px solid rgb(48, 71, 94);
+    border-radius: 5px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.text
+{
+    margin: 0%;
+    margin-bottom: 20px;
+}
+.post_image
+{
+    margin-bottom: 20px;
+    width: 20%;
+    height: 10%;
+    border-radius: 10px;
+}
