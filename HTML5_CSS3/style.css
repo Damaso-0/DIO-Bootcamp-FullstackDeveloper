@@ -1,28 +1,46 @@
 body
 {
-    background: rgb(232, 232, 232);
+    background: rgb(15, 14, 14);
     font-family: Helvetica, sans-serif;
     max-width: 100%;
 }
 a
 {
-    color: darkcyan;
+    color: rgb(50, 160, 220);
     text-decoration: none;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.ul_footer{
+    margin: 0;
+	padding: 36px 0 32px 30px;
+	list-style: none;
+	background-image: url("https://www.iconpacks.net/icons/3/free-github-logo-icon-6531.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 25px;
 }
 .top_page
 {
-    background: rgb(69, 98, 104);
-    border: 1px solid rgb(48, 71, 94);
+    background-image: url("https://artfiles.alphacoders.com/875/thumb-1920-87594.jpg");
+    /*background: rgba(50, 130, 184, 0.5);*/
     margin-bottom: 10px;
     border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 .image_icon
 {
-    width: 8%;
-    height: 8%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
     padding: 20px;
-    margin-bottom: 10;
-    border-radius: 300px;
 }
 
 #title, .subtitle, .text, .top_page
@@ -31,46 +49,88 @@ a
 } 
 #title
 {
-    color: rgb(232, 232, 232);
+    color: rgb(238, 238, 238);
     font-size: 35px;
-    margin-top: 0;
-    margin-right: 0px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    padding-bottom: 10px;
+    margin: 0%;
+    padding: 10px;
 }
 .subtitle
 {
-    color: rgb(69, 98, 104);
+    color: rgb(238, 238, 238);
     font-size: 25px;
     padding-bottom: 0;
     margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
     text-decoration: none;
 }
 .ttitle
 {
-    color: rgb(69, 98, 104);
+    color: rgb(238, 238, 238);
     padding-top: 0;
     margin-top: 0;
 }
 .post
 {
-    background: rgb(232, 232, 232);
+    background: rgb(50, 130, 184, 0.1);
     padding: 10px;
-    border: 1px solid rgb(48, 71, 94);
     border-radius: 5px;
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
 }
-.text
-{
+.grade_1{
+    display: flex;
+    flex-direction: column;
+}
+.grade_1 img{
+    width: 30%;
+}
+.grade_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    color: rgb(238, 238, 238);
+    margin: 10px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    margin-top: 0%;
+    line-height: 23px;
+    text-align: justify;
+}
+.text ul{
+    padding: 0%;
+    padding-left: 20px;
     margin: 0%;
-    margin-bottom: 20px;
 }
-.post_image
-{
-    margin-bottom: 20px;
-    width: 20%;
-    height: 10%;
+.post_image{
     border-radius: 10px;
+}
+.inform{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: left;
+    padding-right: 10px;
+    width: auto;
+}
+.inform img{
+    width: 22%;
+}
+.top_head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.iframe{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
 }
